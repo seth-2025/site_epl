@@ -1,0 +1,50 @@
+body{
+    background-color: white;
+    font-size: 15px;
+}
+div{
+    background-color: rgb(253, 253, 253);
+}
+table{
+    width: 100%;
+    height: 50%;
+    border-color: black;
+    font-size: 20px;
+}
+thead{
+    background-color: rgb(67, 67, 237);
+    color: white;
+    padding: 20px;
+}
+h2{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: larger, 20px;
+    color: white;
+    background-color: blue;
+}
+tr{
+    border-color: rgb(3, 4, 4);
+    border-radius: 5px;
+    text-align: center;
+}
+header{
+    background-image: url(concours_epl.jpg);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 75px 0;
+    color: azure;
+    font-size: 20px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+    animation: changeBackground 30s infinite alternate;
+}
+@keyframes changeBackground {
+    0% { background-image: url(concours_epl.jpg); }
+    50% { background-image: url(CAPTURE1.jpg); }
+    100% { background-image: url(CAPTURE2.jpg); }
+}
+p{
+    font-size: 20px;
+    background-color: antiquewhite;
+}
