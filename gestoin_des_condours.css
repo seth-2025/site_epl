@@ -34,7 +34,6 @@ header{
     background-position: center;
     text-align: center;
     padding: 75px 0;
-    color: azure;
     font-size: 20px;
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
     animation: changeBackground 30s infinite alternate;
