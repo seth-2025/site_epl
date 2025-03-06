@@ -10,6 +10,8 @@ table{
     height: 50%;
     border-color: black;
     font-size: 20px;
+    border-collapse: collapse;
+    margin-top: 15px;
 }
 thead{
     background-color: rgb(67, 67, 237);
@@ -22,11 +24,15 @@ h2{
     font-size: larger, 20px;
     color: white;
     background-color: blue;
+    margin: 20px;
+    padding: 10px;
 }
 tr{
     border-color: rgb(3, 4, 4);
     border-radius: 5px;
     text-align: center;
+    padding: 12px;
+    margin: auto;
 }
 header{
     background-image: url(concours_epl.jpg);
@@ -36,7 +42,7 @@ header{
     padding: 75px 0;
     font-size: 20px;
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
-    animation: changeBackground 30s infinite alternate;
+    animation: changeBackground 20s infinite alternate;
 }
 @keyframes changeBackground {
     0% { background-image: url(concours_epl.jpg); }
@@ -46,4 +52,8 @@ header{
 p{
     font-size: 20px;
     background-color: antiquewhite;
+    line-height: 1.6;
+    margin: 20px;
+    padding: 10px;
 }
+
