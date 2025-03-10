@@ -1,0 +1,28 @@
+header{
+    background-color: #022ba8;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    height: 100px;
+}
+nav{
+    text-align: center;
+    margin: 20px 0;
+}
+nav a{
+    margin: 0 20px;
+    text-decoration: none;
+    color: #022ba8;
+    font-weight: bolder;
+    width: 20px;
+}
+.logo{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 150px;
+    height: auto;
+}
+div{
+
+}
